@@ -3,7 +3,6 @@ import Link from 'next/link'
 import NavBar from '../pages/NavBar'
 import {BiArrowBack} from 'react-icons/bi'
 import { useRouter } from 'next/router';
-import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import 'tailwindcss/tailwind.css';
 
 const Signup = () => {
