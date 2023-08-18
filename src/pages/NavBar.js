@@ -11,12 +11,12 @@ const NavBar = () => {
     }
 
   return (
-    <div className="w-full h-[70px] bg-gradient-to-r from-cyan-800 to-blue-800">
+    <div className="w-full h-[70px] bg-gradient-to-r from-pink-300 to-green-300">
         
         <div className="flex max-w-[1400px] h-full mx-auto px-4 items-center justify-between">
         
             <div className="cursor-pointer font-bold items-center text-xl">
-                <h1 className="text-white"><Link href="/">SushiTime</Link></h1>
+                <h1 className="text-white font-QuickSand text-4xl"><Link href="/">NEW YORK CITY SUSHI</Link></h1>
             </div>
 
             <div className="hidden md:flex">
