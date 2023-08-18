@@ -16,11 +16,11 @@ const Login = () => {
                 <h2 className="text-4xl font-bold text-center py-8 relative text-white">Sushi Muchi Login</h2>
                 <div className="flex flex-col mb-4">
                     <label className="relative mb-2 text-white">Username:</label>
-                    <input className="border relative bg-gray-100 p-2" type="text" placeholder="Username"></input>
+                    <input className="border relative bg-transparent text-white p-2" type="text" placeholder="Username"></input>
                 </div>
                 <div className="flex flex-col">
                     <label className="relative mb-2 text-white">Password:</label>
-                    <input className="border relative bg-gray-100 p-2" type="password" placeholder="password"></input>
+                    <input className="border relative bg-transparent text-white p-2" type="password" placeholder="password"></input>
                 </div>
                 <button className="w-full py-3 mt-8 hover:bg-black duration-300 border relative text-white hover:text-white cursor-pointer">Sign in</button>
                 <p className="relative text-white"><input className="mr-2 relative" type="checkbox"></input>Remember this account</p>

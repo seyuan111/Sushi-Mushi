@@ -24,19 +24,19 @@ const Signup = () => {
             <h2 className="text-4xl font-bold text-center py-8 relative text-white">Sushi Muchi Sign Up</h2>
             <div className="flex flex-col mb-4">
                 <label className="text-white relative mb-2">Email:</label>
-                <input className="border relative bg-gray-100 p-2" type="text" placeholder="email"></input>
+                <input className="border relative bg-transparent text-white p-2" type="text" placeholder="email"></input>
             </div>
             <div className="flex flex-col mb-4">
                 <label className="text-white relative mb-2">Username:</label>
-                <input className="border relative bg-gray-100 p-2" type="text" placeholder="username"></input>
+                <input className="border relative bg-transparent text-white p-2" type="text" placeholder="username"></input>
             </div>
             <div className="flex flex-col">
                 <label className="text-white relative mb-2">Password:</label>
-                <input className="border relative bg-gray-100 p-2" type="password" placeholder="password"></input>
+                <input className="border relative bg-transparent text-white p-2" type="password" placeholder="password"></input>
             </div>
             <div className="flex flex-col">
                 <label className="text-white relative mb-2">Confirm Password:</label>
-                <input className="border relative bg-gray-100 p-2" type="password" placeholder="confirm password"></input>
+                <input className="border relative bg-transparent text-white p-2" type="password" placeholder="confirm password"></input>
             </div>
             <button className="w-full py-3 mt-8 hover:bg-black duration-300 border relative text-white hover:text-white cursor-pointer">Sign Up</button> 
         </form>
