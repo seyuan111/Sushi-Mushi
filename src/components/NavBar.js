@@ -11,7 +11,7 @@ const NavBar = () => {
     }
 
   return (
-    <div className="w-full h-[70px] bg-gradient-to-r from-pink-300 to-green-300">
+    <div className="w-full h-[70px] bg-black">
         
         <div className="flex max-w-[1400px] h-full mx-auto px-4 items-center justify-between">
         

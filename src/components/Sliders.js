@@ -1,6 +1,5 @@
 'use client'
 import React, {useState} from 'react'
-import Link from 'next/link'
 import {BsArrowLeftCircle, BsArrowRightCircle} from 'react-icons/bs'
 import {RxDotFilled} from 'react-icons/rx'
 
@@ -45,7 +44,7 @@ const Sliders = () => {
   return (
     <div className="bg-zinc-900/70">
 
-        <div className="max-w-[1240px] h-[700px] w-full m-auto py-16 px-4 relative group">
+        <div className="h-[900px] w-full m-auto py-16 px-4 relative group">
             <div style={{backgroundImage: `url(${slides[current].url})`}} className="w-full h-full bg-cover bg-center duration-300"></div>
 
             <div onClick={prevSlide} className="cursor-pointer absolute transition-x-0 transition-y-[50%] top-[50%] text-white left-10">

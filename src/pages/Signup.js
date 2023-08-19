@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import NavBar from '../pages/NavBar'
+import NavBar from '../components/NavBar'
 import {BiArrowBack} from 'react-icons/bi'
 import { useRouter } from 'next/router';
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
