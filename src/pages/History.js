@@ -16,8 +16,8 @@ const Hero = () => {
              The fusion of diverse cultures, the boldness of urban creativity, and the precision of culinary craftsmanship converge within our walls. From the moment you step in, you're not just dining; you're becoming part of a legacy where each roll is a canvas, and every bite is an exploration of flavors as dynamic as the city that inspired them. 
              At New York City Sushi, every dish tells a story – a story of how tradition and modernity dance in perfect harmony, offering you a symphony of tastes that can only be found in the heart of the Big Apple. Welcome to a culinary journey that celebrates the spirit of New York and the artistry of sushi like never before.</p>
             <div className="text-white">
-                <button className="px-6 py-2 hover:bg-black duration-300 border"><Link href="/Order">Order</Link></button>
-                <button className="px-6 py-2 hover:bg-black duration-300 ml-6 border"><Link href="/FAQ">FAQ</Link></button>
+                <button className="px-6 py-2 hover:bg-black duration-300 border"><Link href="/Order">EAT</Link></button>
+                <button className="px-6 py-2 hover:bg-black duration-300 ml-6 border"><Link href="/FAQ">SUSHI</Link></button>
             </div>
         </div>
 
