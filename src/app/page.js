@@ -3,11 +3,8 @@ import Hero from '../components/Hero'
 import Sliders from '../components/Sliders'
 import Footer from '../components/Footer'
 import Image from 'next/image'
-import NavBar from '../pages/NavBar'
-import Hero from '../pages/Hero'
-import Sliders from '../pages/Sliders'
-import Cards from '../pages/Cards'
-import History from '../pages/History'
+import Cards from '../components/Cards'
+import History from '../components/History'
 
 
 export default function Home() {
@@ -16,9 +13,9 @@ export default function Home() {
       <NavBar />
       <Hero />
       <Sliders />
-      <Footer />
       <Cards />
       <History />
+      <Footer />
     </div>
   )
 }
