@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Cards = () => {
   return (
-    <div className="bg-zinc-900/70 max-w-full mx-auto p-4 py-12 grid md:grid-cols-3 gap-6">
+    <div className="bg-white max-w-full mx-auto p-4 py-12 grid md:grid-cols-3 gap-6">
         <div className="rounded-xl relative">
             <div className="absolute w-full h-full bg-black/40 text-white text-center">
                 <p className="font-bold text-2xl px-2 pt-14">Want Delivery?</p>
