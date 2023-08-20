@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../pages/NavBar'
 import Link from 'next/link'
 import 'tailwindcss/tailwind.css';
+import Footer from '../components/Footer'
 
 const Store = () => {
   return (
@@ -20,6 +21,7 @@ const Store = () => {
         </div>
 
       </div>
+      <Footer/>
     </div>
   )
 }

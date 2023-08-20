@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import Link from 'next/link'
 import 'tailwindcss/tailwind.css';
+import Footer from '../components/Footer'
 
 const Order = () => {
   return (
@@ -15,6 +16,7 @@ const Order = () => {
         </div>
 
       </div>
+      <Footer/>
     </div>
   )
 }

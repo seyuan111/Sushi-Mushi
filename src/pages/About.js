@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import Link from 'next/link'
 import 'tailwindcss/tailwind.css';
+import Footer from '../components/Footer'
 
 const About = () => {
   return (
@@ -18,6 +19,7 @@ const About = () => {
         </div>
 
       </div>
+      <Footer/>
     </div>
   )
 }

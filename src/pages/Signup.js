@@ -5,6 +5,7 @@ import {BiArrowBack} from 'react-icons/bi'
 import { useRouter } from 'next/router';
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import 'tailwindcss/tailwind.css';
+import Footer from '../components/Footer'
 
 const Signup = () => {
     const router = useRouter();
@@ -45,6 +46,7 @@ const Signup = () => {
             </div>  
 
       </div>
+      <Footer/>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import Link from 'next/link'
 import 'tailwindcss/tailwind.css';
+import Footer from '../components/Footer'
 
 const Specials = () => {
   return (
@@ -19,7 +20,7 @@ const Specials = () => {
         </div>
 
       </div>
-
+      <Footer/>
     </div>
   )
 }
