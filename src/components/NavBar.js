@@ -17,7 +17,7 @@ const NavBar = () => {
         
             <div className="cursor-pointer flex font-bold p-2 items-center text-xl">
             <img src='https://cdn-icons-png.flaticon.com/128/2252/2252076.png' className='w-14 mr-4 h-14'></img>
-                <h1 className="text-white font-QuickSand text-4xl"><Link href="/">NEW YORK CITY SUSHI</Link></h1>
+                <h1 className="text-white font-Cinzel text-4xl"><Link href="/">NEW YORK CITY SUSHI</Link></h1>
             </div>
 
             <div className="hidden md:flex">

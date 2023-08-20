@@ -11,7 +11,7 @@ module.exports = {
         Caprasimo: ['Caprasimo', "cursive"],
         QuickSand: ['Quicksand', "sans-serif"],
         Teko : ["Teko', sans-serif"],
-
+        Cinzel: ["Cinzel, serif"]
       },
     },
   },
