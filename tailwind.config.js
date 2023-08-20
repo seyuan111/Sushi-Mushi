@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       fontFamily: {
         Caprasimo: ['Caprasimo', "cursive"],
-        QuickSand: ['Quicksand', "sans-serif"]
+        QuickSand: ['Quicksand', "sans-serif"],
+        Teko : ["Teko', sans-serif"],
 
       },
     },
