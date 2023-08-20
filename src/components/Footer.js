@@ -5,8 +5,17 @@ import Link from 'next/link'
 const Hero = () => {
   return (    
         <div className="w-full h-[20%] text-center flex flex-col items-center justify-center text-white bg-black p-10">
-            <h1 className="font-bold text-3xl">New York City Sushi</h1>
-            <p>Open From 8AM-6PM Monday-Friday</p>
+            <div className='flex'>
+              <div>
+              <h1 className="font-bold text-3xl">New York City Sushi</h1>
+              <p>Open From 8AM-6PM Monday-Friday</p>
+              </div>
+              <div>
+              <img src='https://cdn-icons-png.flaticon.com/128/2252/2252076.png' className='w-14 h-14 ml-5'></img>
+              </div>
+            </div>
+              
+              
             <div className='flex p-10'>
               <ul className='text-left'>
                 <li>Building Number : 74025</li>
