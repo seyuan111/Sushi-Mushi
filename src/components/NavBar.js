@@ -11,11 +11,12 @@ const NavBar = () => {
     }
 
   return (
-    <div className="w-full h-[70px] bg-black shadow-xl">
+    <div className="w-full h-[70px] bg-black">
         
         <div className="flex max-w-[1400px] h-full mx-auto px-4 items-center justify-between">
         
-            <div className="cursor-pointer font-bold items-center text-xl">
+            <div className="cursor-pointer flex font-bold p-2 items-center text-xl">
+            <img src='https://cdn-icons-png.flaticon.com/128/2252/2252076.png' className='w-14 mr-4 h-14'></img>
                 <h1 className="text-white font-QuickSand text-4xl"><Link href="/">NEW YORK CITY SUSHI</Link></h1>
             </div>
 
