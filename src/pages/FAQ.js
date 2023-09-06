@@ -1,7 +1,8 @@
 import React from 'react'
-import NavBar from '../pages/NavBar'
+import NavBar from '../components/NavBar'
 import Link from 'next/link'
 import 'tailwindcss/tailwind.css';
+import Footer from '../components/Footer'
 
 const FAQ = () => {
   return (
@@ -18,6 +19,7 @@ const FAQ = () => {
         </div>
 
       </div>
+      <Footer/>
     </div>
   )
 }

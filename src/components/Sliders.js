@@ -1,6 +1,5 @@
 'use client'
 import React, {useState} from 'react'
-import Link from 'next/link'
 import {BsArrowLeftCircle, BsArrowRightCircle} from 'react-icons/bs'
 import {RxDotFilled} from 'react-icons/rx'
 
@@ -10,19 +9,13 @@ const Sliders = () => {
 
     const slides = [
         {
-            url: "https://media.istockphoto.com/id/1414888937/photo/salmon-sushi-by-wooden-chopsticks.webp?b=1&s=170667a&w=0&k=20&c=iISxfAEkuqalZzfqC_X9qGyU5jhPpmvECCsd_LNWkGY="
+            url: "https://cdn.discordapp.com/attachments/1013244437243117640/1142649045618278420/half_fresh-min.png"
         },
         {
-            url: "https://media.istockphoto.com/id/1383411781/photo/homemade-sushi-for-lunch.webp?b=1&s=170667a&w=0&k=20&c=7XET_VJVLQY-5lxbeN1WMIdcwoXW-0anDELlz92R6JI="
+            url: "https://cdn.discordapp.com/attachments/1013244437243117640/1142649044846522429/promo-code-1-min.png"
         },
         {
-            url: "https://media.istockphoto.com/id/1385754615/photo/sushi-mix-plate.webp?b=1&s=170667a&w=0&k=20&c=K1-kJ1m8_l5QkjxIr4Kcv9B_azStKl28qbr9LZY74Kk="
-        },
-        {
-            url: "https://media.istockphoto.com/id/1320922361/photo/woman-taking-tasty-sushi-roll-with-salmon-from-set-at-table-closeup.webp?b=1&s=170667a&w=0&k=20&c=0c_1yejNq9Y1_hgl3fu4ygspGhf_8yUelIgyctEapEA="
-        },
-        {
-            url: "https://media.istockphoto.com/id/1217584540/photo/woman-eating-sushi-rolls.webp?b=1&s=170667a&w=0&k=20&c=u9v_BDwJCJHMlCOWfD3I05MNCHqeiKCbjg62cZT43m8="
+            url: "https://cdn.discordapp.com/attachments/1013244437243117640/1142649046134165525/nycad_sushi_work-min.png"
         }
     ]
 
@@ -43,10 +36,10 @@ const Sliders = () => {
     }
 
   return (
-    <div className="bg-zinc-900/70">
+    <div className="bg-black">
 
-        <div className="max-w-[1240px] h-[700px] w-full m-auto py-16 px-4 relative group">
-            <div style={{backgroundImage: `url(${slides[current].url})`}} className="w-full h-full bg-cover bg-center duration-300"></div>
+        <div className="h-[900px] w-full m-auto relative group">
+            <div style={{backgroundImage: `url(${slides[current].url})`}} className="w-full h-full bg-contain bg-no-repeat bg-center duration-300"></div>
 
             <div onClick={prevSlide} className="cursor-pointer absolute transition-x-0 transition-y-[50%] top-[50%] text-white left-10">
                 <BsArrowLeftCircle size={30} />
